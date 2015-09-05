@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Camera Sample</title>
+		<meta charset="utf-8">
+        <link rel="stylesheet" href="styles/main.css" />
+		<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8" src="scripts/main.js"></script>
+	</head>
+	<body>
+        <header class="header">
+            <h1>Camera Sample</h1>
+        </header>
+        <div class="content">
+            <div class="action-area ch50">
+                <button class="button dh" id="capturePhotoButton">Take Photo</button>
+                <button class="button dh" id="getPhotoFromLibraryButton">Select from Photo Library</button>
+			</div>
+            <div class="result-area ch50">
+                <div class="results">
+                    
+		            <img style="display:none;margin:5px auto; width:120px; height:120px;" id="smallImage" src="" />
+                </div>
+				<div class="separator"></div>
+			</div>
+        </div>
+
+	</body>
+</html>
